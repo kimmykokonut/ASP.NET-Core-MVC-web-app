@@ -7,5 +7,11 @@ namespace ProjectName.Controllers
   {
     [Route("/hello")]
     public string Hello() { return "Hello friend!"; }
+    [Route("/")]
+    public ActionResult Index() //routeMethodName
+    {
+      ClassName starterClassName = new ClassName("words");
+      return View(starterClassName);
+    }
   }
 }

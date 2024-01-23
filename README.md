@@ -9,17 +9,13 @@
 
 ----------------
 Readme from C# Console App- toupdate
-# Il Panificio di Paola
+# ProjectName
 _by Kim Robinson_
 
-## Code Review for Epicodus. Build a C# Console Application using Test Driven Development with MSTest.  Use classes, namespaces, auto-implemented properties and methods.
+## Description
 
 ###  This app will allow a user to:
-    - Be greeted and given menu with prices
-    - Order quantities of bread (french or sourdough) and pastry
-    - Receive the total price
-    - Update order to add more items
-    - Receipt reflects deal price (bread, buy 2 get 1 free; pastry buy 3 get 1 free)
+    - 
 
 ### Technologies Used
 
