@@ -1,17 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
-using ProjectName.Models;
 
-namespace ProjectName.Controllers 
+namespace ProjectName.Controllers //change name
 {
   public class HomeController : Controller
   {
-    [Route("/hello")]
-    public string Hello() { return "Hello friend!"; }
-    [Route("/")]
-    public ActionResult Index() //routeMethodName
+    [HttpGet("/")]
+    public ActionResult Index() 
     {
-      ClassName starterClassName = new ClassName("words");
-      return View(starterClassName);
+      return View();
     }
   }
 }

@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ProjectName
+namespace ProjectName //change name
 {
-  class Program
+  class Program 
   {
     static void Main(string[] args)
     {
@@ -13,7 +13,6 @@ namespace ProjectName
 
       WebApplication app = builder.Build();
 
-      // app.UseDeveloperExceptionPage();
       app.UseHttpsRedirection();
       app.UseStaticFiles();
       app.UseRouting();

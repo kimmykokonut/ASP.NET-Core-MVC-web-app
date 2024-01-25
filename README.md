@@ -29,9 +29,9 @@ _by Kim Robinson_
 
 ## Setup/Installation Requirements
 
-_This is a basic console application, not viewable on gh-pages. Please follow steps below to set up locally_
+_Currently not viewable on gh-pages. Please follow steps below to set up locally_
 
-1. Navigate to [my github repository](https://github.com/kimmykokonut/Bakery.Solution) for this project 
+1. Navigate to [my github repository](https://github.com/kimmykokonut/XXX) for this project 
 
 2. Click the `Fork` button and  you will be taken to a new page where you can give your repository a new name and description. Choose "create fork".
 
@@ -53,17 +53,17 @@ In the Terminal:
 `$ git commit -m 'add .gitignore`
 `$ git push origin main`
 
-9. While in the terminal, navigate to the project's production directory called "Bakery" and type `$ dotnet build` to compile the application's code.
+9. While in the terminal, navigate to the project's production directory currently called "ProjectName" and type `$ dotnet build` to compile the application's code.
 
-10.  To use MSTest, you need to use the NuGet package manager to install the packages in the .csproj file.  Navigate to the Bakery.Tests directory in the terminal and run the command `$ dotnet restore`
+10.  To use MSTest, you need to use the NuGet package manager to install the packages in the .csproj file.  Navigate to the ProjectName.Tests directory in the terminal and run the command `$ dotnet restore`
 
 11.  Optionally you can use a file watcher so you don't have to restart the server every time the code changes. Run this command `$ dotnet watch run` to make the server automatically update.
 
-12. In the terminal, type `$ dotnet run` (to compile and execute the console application ). Since this is a console application, you'll interact with it through text commands in your terminal.
+12. In the terminal, type `$ dotnet run` (to compile and execute the console application ).
 
-13. Enjoy my first solo official C# Console Application!  You can exit the program at anytime by entering `ctrl` + `c` at any time.
+13. Enjoy!  You can close the development server at anytime by entering `ctrl` + `c` in the terminal.
 
-* To run tests using MSTest, navigate to the Bakery.Tests directory in your terminal and type `$ dotnet test`
+* To run tests using MSTest, navigate to the ProjectName.Tests directory in your terminal and type `$ dotnet test`
 
 ## Known Bugs
 * None known at this time

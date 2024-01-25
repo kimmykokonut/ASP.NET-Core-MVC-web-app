@@ -1,7 +1,11 @@
-namespace ProjectName.Models
+namespace ProjectName.Models //change name
 {
-  public class ClassName
+  public class ClassName //change name
   {
-    //
+    //properties here
+    public ClassName()
+    {
+      //properties here
+    }
   }
 }
