@@ -1,4 +1,4 @@
-## Template for ASP.NET Core MVC web application using EFCore
+## Template for ASP.NET Core MVC web application using EFCore and MySQL Database
 
 ### Setup
 * Make sure parent directory is ProjectName.Solution
