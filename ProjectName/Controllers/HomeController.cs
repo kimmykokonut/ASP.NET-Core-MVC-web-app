@@ -1,13 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ProjectName.Controllers //change name
+namespace ProjectName.Controllers; //change name
+
+public class HomeController : Controller
 {
-  public class HomeController : Controller
+  [HttpGet("/")]
+  public ActionResult Index()
   {
-    [HttpGet("/")]
-    public ActionResult Index() 
-    {
-      return View();
-    }
+    return View();
   }
 }

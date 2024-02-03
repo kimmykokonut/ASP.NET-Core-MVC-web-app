@@ -1,11 +1,6 @@
-namespace ProjectName.Models //change name
+namespace ProjectName.Models; //change name
+
+public class ClassName //change name
 {
-  public class ClassName //change name
-  {
-    //properties here
-    public ClassName()
-    {
-      //properties here
-    }
-  }
+  //properties here
 }
